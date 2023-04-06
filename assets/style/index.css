@@ -100,12 +100,37 @@ main .hero-banner {
 
 .banner-text {
   color: var(--app-white);
-  font-size: 45px;
-  width: 80%;
+  font-size: 65px;
+  width: 88%;
 }
 
 .sub-text {
   color: var(--app-text-gray);
   font-size: 18px;
   margin-top: 10px;
+}
+
+.tracking {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  color: var(--app-white);
+  font-size: 25px;
+}
+
+.tracking p {
+  margin-bottom: 15px;
+}
+
+#map {
+  width: 80%;
+  height: 500px;
+}
+
+.marker {
+  background-image: url(../image/mapbox-icon.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
 }

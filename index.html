@@ -16,13 +16,15 @@
     crossorigin="anonymous" 
     referrerpolicy="no-referrer" 
   />
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
   <script src="./assets/script/index.js" defer></script>
   </head>
   <body>
     <header>
       <div class='container flex'>
         <div class='title'>
-          <h1>Delivry Findr.</h1>
+          <h1>Delivery Finder</h1>
         </div>
         <nav>
           <ul>
@@ -43,6 +45,12 @@
               companies all in one place.
             </p>
           </div>
+        </div>
+      </div>
+      <div class="container tracking">
+        <p>Track your packages here:</p>
+        <div class="center">
+          <div id='map'></div>
         </div>
       </div>
     </main>
