@@ -90,11 +90,18 @@ nav ul li a:hover {
 /* Main
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+main .hero-banner {
+  background-image: url(../image/hero-banner.jpg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 50px);
+}
+
 .banner-text {
   color: var(--app-white);
   font-size: 45px;
   width: 80%;
-  margin-top: 28%;
 }
 
 .sub-text {
