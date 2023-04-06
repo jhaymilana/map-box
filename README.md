@@ -1,4 +1,4 @@
-## Delivry Grindr
+## Delivery Finder
 
 Check out our [web page](https://jhaymilana.github.io/map-box/).
 
